@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Library</title>
+<meta name="description" content="A small Windows app for organising product research, with optional backups to your own Google Drive.">
+<style>
+  :root { --bg: #f7f5f3; --fg: #1d1a18; --fg2: #5c5550; --line: #e4dfda; --card: #ffffff; --accent: #d9561a; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #121010; --fg: #ece7e3; --fg2: #a39a93; --line: #2a2523; --card: #171514; --accent: #f0692a; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 "Segoe UI", system-ui, -apple-system, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 20px 72px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.01em; }
+  h1 span { color: var(--accent); }
+  .lead { color: var(--fg2); font-size: 18px; margin: 0 0 32px; }
+  h2 { font-size: 17px; margin: 32px 0 8px; }
+  ul { padding-left: 20px; margin: 0; }
+  li { margin: 4px 0; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; margin-top: 28px; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; color: var(--fg2); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Library</h1>
+  <p class="lead">A small Windows app for organising product research: products, suppliers, photos and notes in one tidy library, with a check for products you already have.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Keeps a library of products you’re researching, with their photos, specs, suppliers and your notes.</li>
+    <li>Warns you when a new product looks like one you already have.</li>
+    <li>Backs up the library to a folder on your PC and, if you choose, to your own Google Drive.</li>
+  </ul>
+
+  <h2>Your data stays yours</h2>
+  <ul>
+    <li>Everything is stored on your own PC. There are no accounts, no servers, no ads and no tracking.</li>
+    <li>Google Drive backup is optional. The app can only see the files it created itself in your Drive, nothing else.</li>
+  </ul>
+
+  <div class="card">Read the <a href="privacy.html">privacy policy</a> to see exactly what the app does with your data, including Google Drive.</div>
+
+  <footer>Library is a personal app for Windows.</footer>
+</main>
+</body>
+</html>
